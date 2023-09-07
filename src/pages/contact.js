@@ -16,7 +16,7 @@ const contact = () => {
             </Head>
             <TransitionEffect/>
             <div>
-              <AnimatedText text="Let's Connect!" className='mb-16 mt-16'/>
+              <AnimatedText text="Let&apos;s Connect!" className='mb-16 mt-16'/>
             </div>
 
             <div className='w-full flex flex-col items-center'>

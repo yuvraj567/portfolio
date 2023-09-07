@@ -27,18 +27,18 @@ const about = () => {
                     <div className='col-span-4 flex flex-col items-start justify-start '>
                         <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">About Me</h2>
 
-                        <p className='my-4 font-medium'>Hi! I'm <span className='font-bold'>Yuvraj Singh</span>, a diligent Bachelor of Technology (B.Tech) student majoring in Computer Science. 
+                        <p className='my-4 font-medium'>Hi! I&apos;m <span className='font-bold'>Yuvraj Singh</span>, a diligent Bachelor of Technology (B.Tech) student majoring in Computer Science. 
                         My journey is characterized by a strong foundation in web development and expertise in data structures and algorithms (DSA).
                         </p>
                         <p className='font-medium'> In the domain of web development, I excel at creating seamless, user-centric websites that blend design with functionality. However, 
                         my true passion is DSA, where I relish solving intricate problems, optimizing algorithms, and crafting elegant solutions. </p>
 
                         <p className='font-medium my-4'>
-                        I'm on a relentless quest for knowledge, continually exploring the latest technologies and 
+                        I&apos;m on a relentless quest for knowledge, continually exploring the latest technologies and 
                         collaborating on innovative projects. With my unwavering commitment to excellence, 
                         I aspire to contribute positively to the ever-evolving landscape of computer science.
                         </p>
-                        <p className='font-medium my-4'>Coding the future, one line at a time. Let's innovate together.</p>
+                        <p className='font-medium my-4'>Coding the future, one line at a time. Let&apos;s innovate together.</p>
                     </div>
                     <div className='col-span-4 relative h-[65%] rounded-2xl border-2 border-solid border-dark
                     bg-light p-8 dark:bg-dark dark:border-light'>
