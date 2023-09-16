@@ -8,6 +8,7 @@ import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import TransitionEffect from '@/components/TransitionEffect';
+import photo from "../../public/images/profile/transparent-background-designify-final.png"
 
 export default function Home() {
   return (

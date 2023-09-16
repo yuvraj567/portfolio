@@ -62,7 +62,7 @@ const Experience = () => {
                     <Details
                         position='Solved 600+ questions '
                         company='LeetCode'
-                        companyLink="https://leetcode.com/Eternal_Blue/"
+                        companyLink="https://leetcode.com/"
                         work='Strong grasp of data structures and algorithms, demonstrated by achieving a 3-star rating on LeetCode.'
                     />
 
