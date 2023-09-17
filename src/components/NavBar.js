@@ -6,6 +6,9 @@ import {TwitterIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon } from './Icons
 import {motion} from "framer-motion";
 import useThemeSwitcher from './hooks/useThemeSwitcher';
 import {useState} from 'react'
+import Image from 'next/image';
+import LeetCode from "../../public/images/leetcode.svg"
+import gfg from "../../public/images/icons8-geeksforgeeks.svg"
 
 const CustomLink = ({href, title, className=""}) => {
     const router = useRouter();
@@ -72,12 +75,12 @@ const NavBar = () => {
                 </nav>
                 
                 <nav className='flex items-center justify-center flex-wrap'>
-                    <motion.a href ="https://twitter.com/Yuvv_raj07" target={"_blank"}
+                    <motion.a href="https://leetcode.com/Eternal_Blue/" target={"_blank"}
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
-                    className="w-6 mx-3"
+                    className="w-[24px]  ml-3 dark:text-white bg-light rounded-full sm:mx-1"
                     >
-                        <TwitterIcon/>
+                        <Image src={LeetCode} alt="photo"/>
                     </motion.a>
 
                     <motion.a href ="https://github.com/yuvraj567" target={"_blank"} 
@@ -86,6 +89,14 @@ const NavBar = () => {
                     whileTap={{scale:0.9}}
                     >
                         <GithubIcon/>
+                    </motion.a>
+
+                    <motion.a href="https://auth.geeksforgeeks.org/user/yuvv_raj7/practice" target={"_blank"}
+                    whileHover={{y:-2}}
+                    whileTap={{scale:0.9}}
+                    className="w-8  ml-1"
+                    >
+                        <Image src={gfg} alt="photo"/>
                     </motion.a>
 
                     <motion.a href ="https://www.linkedin.com/in/yuvraj-singh-30164721b/" target={"_blank"} 
@@ -126,12 +137,13 @@ const NavBar = () => {
                     </nav>
                     
                     <nav className='flex items-center justify-center flex-wrap mt-2'>
-                        <motion.a href ="https://twitter.com/Yuvv_raj07" target={"_blank"}
+
+                        <motion.a href="https://leetcode.com/Eternal_Blue/" target={"_blank"}
                         whileHover={{y:-2}}
                         whileTap={{scale:0.9}}
-                        className="w-6 mx-3 bg-light rounded-full sm:mx-1"
+                        className="w-[24px]  ml-3 bg-light rounded-full sm:mx-1"
                         >
-                            <TwitterIcon/>
+                            <Image src={LeetCode} alt="photo"/>
                         </motion.a>
     
                         <motion.a href ="https://github.com/yuvraj567" target={"_blank"} 
@@ -140,6 +152,14 @@ const NavBar = () => {
                         whileTap={{scale:0.9}}
                         >
                             <GithubIcon/>
+                        </motion.a>
+
+                        <motion.a href="https://auth.geeksforgeeks.org/user/yuvv_raj7/practice" target={"_blank"}
+                        whileHover={{y:-2}}
+                        whileTap={{scale:0.9}}
+                        className="w-6  ml-3 bg-light rounded-full sm:mx-1"
+                        >
+                            <Image src={gfg} alt="photo"/>
                         </motion.a>
     
                         <motion.a href ="https://www.linkedin.com/in/yuvraj-singh-30164721b/" target={"_blank"} 

@@ -1,14 +1,13 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/developer-pic-1.png";
+import profilePic from "../../public/images/profile/developer-pic-1 (2).png";
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import TransitionEffect from '@/components/TransitionEffect';
-import photo from "../../public/images/profile/transparent-background-designify-final.png"
 
 export default function Home() {
   return (
@@ -23,7 +22,7 @@ export default function Home() {
         <Layout className='pt-0 md:p-16 sm:pt-8'>
           <div className="flex items-center space-between w-full lg:flex-col">
             <div className='w-1/2 md:w-full'>
-              <Image src={profilePic} alt="Yuvraj Singh" className='w-full h-auto lg:hidden md:inline-block md:w-full' 
+              <Image src={profilePic} alt="Yuvraj Singh" className='w-full h-[500px] lg:hidden md:inline-block md:w-full' 
               priority
               sizes="(max-width:768px) 100vw,
               (max-width:1200px) 50vw,

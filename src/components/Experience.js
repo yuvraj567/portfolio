@@ -33,7 +33,7 @@ const Experience = () => {
         }
     );
     return(
-        <div className='my-48 '>
+        <div className='my-48 mb-4'>
             <h2 className='font-bold text-8xl w-full text-center mb-12 md:text-6xl xs:text-4xl md:mb-16'>
                 Achievements
             </h2>
@@ -53,31 +53,31 @@ const Experience = () => {
                     />
 
                     <Details
-                        position='Solved 600+ questions '
-                        company='LeetCode'
-                        companyLink="https://leetcode.com/Eternal_Blue/"
-                        work='Strong grasp of data structures and algorithms, demonstrated by achieving a 3-star rating on LeetCode.'
+                        position='Attained 5-star rating '
+                        company='HackerRank'
+                        companyLink="https://www.hackerrank.com/yuvv_raj7"
+                        work='Affirming my coding and problem-solving abilities, demonstrating my commitment to continuous skill development.'
                     />
 
                     <Details
-                        position='Solved 600+ questions '
-                        company='LeetCode'
-                        companyLink="https://leetcode.com/"
-                        work='Strong grasp of data structures and algorithms, demonstrated by achieving a 3-star rating on LeetCode.'
+                        position='Solved 200+ questions '
+                        company='GeeksForGeeks'
+                        companyLink="https://auth.geeksforgeeks.org/user/yuvv_raj7/practice"
+                        work='Strong grasp of data structures and algorithms, demonstrated by achieving 700+ points on GeeksForGeeks.'
+                    />
+                    
+                    <Details
+                        position='Qualified for Level 1.2 in the '
+                        company='Flipkart Grid 5.0 Competition'
+                        companyLink="https://drive.google.com/file/d/1V4lp0Sy73K8asKq7x5GMFtCm7_AH0kpM/view"
+                        work='Qualified for Level 1.2 of the @Flipkart Grid 5.0 Competition, showcasing problem-solving and innovation skills.'
                     />
 
                     <Details
-                        position='Solved 600+ questions '
-                        company='LeetCode'
-                        companyLink="https://leetcode.com/Eternal_Blue/"
-                        work='Strong grasp of data structures and algorithms, demonstrated by achieving a 3-star rating on LeetCode.'
-                    />
-
-                    <Details
-                        position='Solved 600+ questions '
-                        company='LeetCode'
-                        companyLink="https://leetcode.com/Eternal_Blue/"
-                        work='Strong grasp of data structures and algorithms, demonstrated by achieving a 3-star rating on LeetCode.'
+                        position='Ranked 9th in College Coding Competition '
+                        company='CodingNinjaStdio'
+                        companyLink="https://drive.google.com/file/d/1CNAKHfFlgKpjsUbpbyH7nKMAgj24rGsN/view"
+                        work='Secured the 9th position in the College Coding Competition at CodingNinjaStdio, showcasing strong problem-solving skills.'
                     />
                 </ul>
             </div>

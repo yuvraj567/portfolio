@@ -5,8 +5,12 @@ import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import Image from 'next/image';
 import { GithubIcon } from '@/components/Icons';
-import Project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import Project1 from "../../public/images/projects/courseStack.png"
+import weather from "../../public/images/projects/weather.png"
+import game from "../../public/images/projects/number-game.png"
 import TransitionEffect from '@/components/TransitionEffect';
+import majorwala from "../../public/images/projects/major.png"
+import Random from "../../public/images/projects/password.png"
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
     return(
@@ -48,7 +52,7 @@ const Project = ({title, type, img, link, github}) => {
         <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4'>
             <div className='rounded-br-3xl absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]'/>
             <Link className='w-full cursor-pointer overflow-hidden rounded-lg' href={`${link}`} target="_blank">
-                <Image src={img} alt={title} className='w-full h-auto'/>
+                <Image src={img} alt={title} className='w-full h-[80%]'/>
             </Link>
 
             <div className='w-full flex flex-col items-start justify-between mt-4'>
@@ -60,9 +64,9 @@ const Project = ({title, type, img, link, github}) => {
 
                 {/* <p className='my-2 font-medium text-dark'>{summary}</p> */}
                 <div className='w-full mt-2 flex items-center justify-between'>
-                <Link href={`${link}`} target='_blank'
-                    className='underline text-lg  font-semibold md:text-base'
-                    >Visit </Link>
+                    <Link href={`${link}`} target='_blank'
+                        className='underline text-lg  font-semibold md:text-base'
+                        >Visit </Link>
                     <Link href={`${github}`} target='_blank' className='w-8 md:w-6'><GithubIcon/></Link>
                     
                 </div>
@@ -87,66 +91,64 @@ const projects = () => {
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Crypto Screener Application"
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency."
-                                link="/"
-                                type='Featured Project'
+                                title="Edtech Platform Project"
+                                summary="CourseStack is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. 
+                                The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS."
+                                link="https://coursestack-sigma.vercel.app/"
+                                type='Major Project'
                                 img={Project1}
-                                github="www.google.com"
+                                github="https://github.com/yuvraj567/course-stack-fullstack"
                             />
                         </div>
 
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                link="/"
-                                type='Featured Project'
-                                img={Project1}
-                                github="www.google.com"
+                                title="SkyView Weather App"
+                                link="https://skyview-weather.netlify.app/"
+                                type='Minor Project'
+                                img={weather}
+                                github="https://github.com/yuvraj567/weather-App"
                             />
                         </div>
 
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                link="/"
-                                type='Featured Project'
-                                img={Project1}
-                                github="www.google.com"
+                                title="2-0-4-8 game"
+                                link="https://2-0-4-8game.netlify.app/"
+                                type='Minor Project'
+                                img={game}
+                                github="https://github.com/yuvraj567/2048-game"
                             />
                         </div>
 
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Crypto Screener Application"
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency."
-                                link="/"
-                                type='Featured Project'
-                                img={Project1}
-                                github="www.google.com"
+                                title="LeetCode Problem Extension"
+                                summary="LeetCode Torture is an extension designed to make you productive to ace those technical interviews. When you activate this extension,
+                                 you won't be able to access any websites except LeetCode until you solve your randomly assigned LeetCode problem."
+                                link="https://github.com/yuvraj567/haha-funny-leetcode-extension"
+                                type='Major Project'
+                                img={majorwala}
+                                github="https://github.com/yuvraj567/haha-funny-leetcode-extension"
                             />
                         </div>
 
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                link="/"
-                                type='Featured Project'
-                                img={Project1}
-                                github="www.google.com"
+                                title="Random Password Generator"
+                                link="https://random-password-generater24into7.netlify.app/"
+                                type='Minor Project'
+                                img={Random}
+                                github="https://github.com/yuvraj567/random-password-generate"
                             />
                         </div>
 
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
+                                title="Calculator"
                                 link="/"
-                                type='Featured Project'
-                                img={Project1}
+                                type='Minor Project'
+                                img={weather}
                                 github="www.google.com"
                             />
                         </div>

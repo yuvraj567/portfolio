@@ -49,23 +49,20 @@ const Education = () => {
                         type='B.Tech in Computer Science '
                         time='June 2021-May 2025'
                         place="Institute of Engineering and Management, Kolkata"
-                        info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence.'
+                        info='Achieved a Cumulative Grade Point Average (CGPA) of 9.33 out of 10.0 till the completion of the fourth semester.'
                     />
 
                     <Details
-                        type='B.Tech in Computer Science '
-                        time='June 2021-May 2025'
-                        place="Institute of Engineering and Management, Kolkata"
-                        info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence.'
+                        type='Higher Secondary Education in Science'
+                        time='June 2018-May 2020'
+                        place="Mahanth Tapeshwar Goswami S.S. School, Chapra, Bihar"
+                        info='Achieved an impressive 84.2% marks in my 12th-grade examination.'
                     />
                     <Details
-                        type='B.Tech in Computer Science '
-                        time='June 2021-May 2025'
-                        place="Institute of Engineering and Management, Kolkata"
-                        info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence.'
+                        type='Matriculation in Science'
+                        time='June 2016-May 2018'
+                        place="N.S. High School, Taraiya, Chapra"
+                        info='Achieved an impressive 74% marks in my 10th-grade Board examination.'
                     />
 
                 </ul>
