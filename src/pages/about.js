@@ -3,7 +3,7 @@ import Layout from '@/components/Layout';
 import Head from 'next/head';
 import React from 'react';
 import Image from 'next/image';
-import profilePic from "../../public/images/profile/developer-pic-2 (2).jpg"
+import profilePic from "../../public/images/profile/Untitled.png"
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
 import Skills from '@/components/Skills';
