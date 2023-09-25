@@ -23,7 +23,7 @@ export default function Home() {
         <Layout className='pt-0 md:p-16 sm:pt-8'>
           <div className="flex items-center space-between w-full lg:flex-col">
             <div className='w-1/2 md:w-full'>
-              <Image src={meraPhoto} alt="Yuvraj Singh" className='w-[75%] h-[450px] lg:hidden md:inline-block md:w-full' 
+              <Image src={meraPhoto} alt="Yuvraj Singh" className='w-[75%] h-[450px] lg:hidden md:inline-block md:w-full sm:w-[100%] sm:h-[250px] sm:mb-5' 
               priority
               sizes="(max-width:768px) 100vw,
               (max-width:1200px) 50vw,
