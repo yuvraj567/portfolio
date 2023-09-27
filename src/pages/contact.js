@@ -20,13 +20,13 @@ const contact = () => {
                   <AnimatedText text="Let&apos;s Connect!" className='mb-16 mt-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8 w-[100vw]'/>
                   
 
-                  <div className='w-full flex flex-col items-center'>
+                  <div className='w-fit flex flex-col items-center'>
                     <div>
                       <h1 className='pt-8 text-5xl text-[#e84949] ml-[150px] dark:text-primaryDark'>Contact Me</h1>
                       <h3 className='text-3xl capitalize text-black ml-[150px] dark:text-light '>Questions, thoughts, or just want to say hello?</h3>
 
-                      <div className='mt-4 mb-4 h-full w-fit bg-white dark:bg-black rounded-md backdrop-filter backdrop-blur-md bg-opacity-20 border-black-700 '>
-                        <div className='flex mt-[25px] justify-center items-center w-[1000px] '>
+                      <div className='mt-4 mb-4 h-full w-fit bg-white dark:bg-dark rounded-md backdrop-filter backdrop-blur-md bg-opacity-20 border-black-700 '>
+                        <div className='flex mt-auto justify-center items-center w-[1000px] '>
                           <form action="https://formspree.io/f/mlekrnnl" method="post" className='flex flex-col gap-[30px] w-[70%] my-[16px] mx-[40px] dark:border-solid dark:border-2 dark:border-primaryDark px-10 py-5 border-solid border-2 border-dark'>
                             <div className='w-full' required='true'>
                               <label htmlFor="there" className='font-semibold'>Enter your name</label>
