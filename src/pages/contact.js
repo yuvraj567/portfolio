@@ -20,7 +20,7 @@ const contact = () => {
                   <AnimatedText text="Let&apos;s Connect!" className='mb-16 mt-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8 w-[100vw]'/>
                   
 
-                  <div className='w-fit flex flex-col items-center'>
+                  <div className='w-full flex flex-col items-center'>
                     <div>
                       <h1 className='pt-8 text-5xl text-[#e84949] ml-[150px] dark:text-primaryDark'>Contact Me</h1>
                       <h3 className='text-3xl capitalize text-black ml-[150px] dark:text-light '>Questions, thoughts, or just want to say hello?</h3>
